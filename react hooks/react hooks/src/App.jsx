@@ -10,8 +10,6 @@ import UseMemo1 from "./UseMemo1";
 import UseEffect2 from "./UseEffect2";
 import UseRef2 from "./UseRef2";
 import UseMemo2 from "./UseMemo2";
-import UseCallBack1 from "./UseCallBack1";
-import UseCallBack2 from "./UseCallBack2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,8 +24,6 @@ function App() {
       <UseEffect2 />
       <UseRef2 />
       <UseMemo2 />
-      <UseCallBack1 />
-      <UseCallBack2 />
     </>
   );
 }

@@ -38,7 +38,6 @@ const UseMemo2 = () => {
       />
       <button onClick={() => setDark((curr) => !curr)}>Toogle Theme</button>
       <div style={themeStyles}>{doubleNumber}</div>
-      <hr />
     </>
   );
 };
