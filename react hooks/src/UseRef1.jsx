@@ -20,6 +20,7 @@ function UseRef1(){
                 console.log(inputElem.current)
                 inputElem.current.style.background="yellow";
             }}>Click Here</button>
+            <hr />
         </>
     );
 }

@@ -9,6 +9,7 @@ import UseRef1 from "./UseRef1";
 import UseMemo1 from "./UseMemo1";
 import UseEffect2 from "./UseEffect2";
 import UseRef2 from "./UseRef2";
+import UseMemo2 from "./UseMemo2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
       <UseMemo1 />
       <UseEffect2 />
       <UseRef2 />
+      <UseMemo2 />
     </>
   );
 }

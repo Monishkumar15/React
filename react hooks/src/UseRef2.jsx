@@ -27,6 +27,7 @@ const UseRef2 = () => {
         <p>My name is {input}</p>
         <p>My name is {inputRef.current}</p>
         <button onClick={display}>Show Input</button>
+        <hr />
     </>
   )
 }
