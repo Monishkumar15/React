@@ -11,6 +11,7 @@ const UseCallBack2 = () => {
         <Header newFn={newFn}/> {/** This UseCallBack component mounted with Header*/} 
         <h1>{count}</h1>
         <button onClick={()=>setCount(prev=>prev+1)}>click here</button>
+        <hr />
     </>
   )
 }

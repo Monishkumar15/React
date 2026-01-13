@@ -12,6 +12,9 @@ import UseRef2 from "./UseRef2";
 import UseMemo2 from "./UseMemo2";
 import UseCallBack1 from "./UseCallBack1";
 import UseCallBack2 from "./UseCallBack2";
+import UseContext1 from "./UseContext1";
+import ContextProvider from "./context/AppContext";
+import UseContext2 from "./UseContext2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +31,10 @@ function App() {
       <UseMemo2 />
       <UseCallBack1 />
       <UseCallBack2 />
+      <ContextProvider>
+          <UseContext1 />
+      </ContextProvider>
+      <UseContext2 />
     </>
   );
 }
