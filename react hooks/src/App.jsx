@@ -15,6 +15,8 @@ import UseCallBack2 from "./UseCallBack2";
 import UseContext1 from "./UseContext1";
 import ContextProvider from "./context/AppContext";
 import UseContext2 from "./UseContext2";
+import UseReducer1 from "./UseReducer1";
+import UseReducer2 from "./UseReducer2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,6 +37,8 @@ function App() {
           <UseContext1 />
       </ContextProvider>
       <UseContext2 />
+      <UseReducer1 />
+      <UseReducer2 />
     </>
   );
 }

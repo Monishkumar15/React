@@ -15,6 +15,7 @@ const UseContext2 = () => {
         <button onClick={toggleTheme}>toogle Theme</button>
         <h2>UseContext example</h2>
         <Container />
+        <hr />
       </div>
     </ThemeContext.Provider>
   );
