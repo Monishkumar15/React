@@ -1,0 +1,59 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input:first-child{
+  margin-top: 20px;
+}
+
+.form input{
+  border: 1px solid #cccccc;
+  padding: 12px 10px;
+  outline: none;
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.form button{
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+table button{
+  border: none;
+  outline: none;
+  background-color: rgb(255, 191, 0);
+  padding: 6px 10px;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+table button:last-child{
+  background-color: red;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttonContainer button:last-child{
+  margin-left: 10px;
+  background-color: rgb(206, 85, 85);
+}
